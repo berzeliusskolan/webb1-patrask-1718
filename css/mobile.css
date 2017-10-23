@@ -1,19 +1,11 @@
 body {
     background: #222;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 .wrapper {
     background: #fff;
-}
+    max-width: 360px;
 
-h1,
-h2,
-h3,
-p {
-    font-family: 'Lato', sans-serif;
 }
 
 div,
@@ -21,76 +13,3 @@ section {
     box-sizing: border-box;
 }
 
-.section {
-    max-width: 360px;
-}
-
-.splash-left {
-    background: #222;
-    background-image: url("../img/dude.jpg");
-    background-size: cover;
-    background-position: center -30px;
-    
-}
-
-.bg-filter {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 50px 10px 20px 10px;
-}
-
-.splash h1 {
-    margin-bottom: 20px;
-    font-size: 50px;
-
-    color: white;
-}
-
-.splash h3 {
-    font-size: 30px;
-    color: white;
-    margin-bottom: 10px;
-}
-
-.btn-box {
-    display: flex;
-}
-
-.btn {
-    display: block;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.5);
-    border-radius: 4px;
-    text-decoration: none;
-    font-family: 'Lato', sans-serif;
-    color: #222;
-}
-
-.zones {
-    padding: 20px 10px 10px 10px;
-}
-
-.zones h2 {
-    color: #222;
-    font-size: 30px;
-    margin-bottom: 20px;
-    font-weight: bold;
-}
-
-.zone {
-    padding-bottom: 5px;
-    border-bottom: dashed 2px #444;
-}
-
-.zone:last-child {
-    border-bottom: dashed 2px transparent;
-}
-
-.zone h3 {
-    margin: 15px 0px 5px 0px;
-    font-weight: bold;
-}
-
-.ready img {
-    max-width: 100%;
-    display: block;
-}

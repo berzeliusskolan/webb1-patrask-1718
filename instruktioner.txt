@@ -1,3 +1,5 @@
+Max-bredd 360px
+
 Bakgrundsfärg
 #222
 
