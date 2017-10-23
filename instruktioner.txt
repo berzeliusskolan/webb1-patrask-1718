@@ -1,0 +1,22 @@
+Bakgrundsfärg
+#222
+
+Stora rubriken
+#fff, 50px, Lato
+
+Underrubriken
+#fff, 30px, Lato
+
+Knapp
+#222, Lato, rgba(255,255,255,0.5)
+
+Banor-rubrik
+#222, 30px, Lato, bold
+
+Banorna själva
+#222, Lato
+
+
+
+LATO
+https://fonts.google.com/specimen/Lato?selection.family=Lato
